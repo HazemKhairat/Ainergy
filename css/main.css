@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.home .container{
+    width: 90%;
+    margin: auto;
+}
+
+.home .nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 0%;
+ }
+.home .nav .row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.home .nav .row ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px ;
+}
+.home .nav .row ul .li{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all 0.5s;
+}
+.home .nav .row ul .li:hover{
+    color: orange;
+}
+
+.home .nav .row .sign{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home .nav .row .sign a{
+    color: rgb(220, 7, 7);
+}
+.home .nav .row a{
+    text-decoration: none;
+    padding: 20px;
+}
+.home .nav .row .logo{
+    display: flex;
+    padding-top: 0px;
+}
+.home .nav .row .logo .char{
+    color: orange;
+    padding-top: 5px;
+}
+.home .nav .row .logo .char2{
+   font-size: 30px;
+   color: gray;
+}
+.home .row2{
+    padding-top: 100px;
+    text-align: center;
+}
+.home .row2 h2{
+    font-size: 40px;
+    color: orange;
+    font-family: "Philosopher", sans-serif;
+}
+.home .row2 p{
+    padding: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home .row2 button{
+    margin-top: 50px;
+    width: 10%;
+    padding: 10px;
+    border-radius: 30px;
+    color: orange;
+    border: 1px solid orange;
+    background-color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.home .row2 button:hover{
+    background-color: orange;
+    color: white;
+}
+.home .row2 .icon{
+    padding-top: 30px;
+}
+.home .row2 .icon a{
+    cursor: pointer;
+    padding: 0px 15px;
+    color: gray;
+    transition: all .5s;
+}
+.home .row2 .icon a:hover{
+    color: orange;
+}
+
+/* .about{
+    padding-bottom: 1000px 0px;
+} */
+.about .container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.about .h2{
+    padding-top: 150px;
+    font-sizE: 50px;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+}
+
+.about .row{
+    padding-bottom: 100px;
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.about .row .vision p{
+    color: gray;
+    padding: 20px; 
+
+}
+.about .row .vision{
+    transition: all .5s;
+    cursor: pointer;
+}
+.about .row .vision:hover{
+    padding: 1px;
+    background-color:antiquewhite;
+    border-radius: 20px;
+}
+
+.about .row .vision img{
+    width: 10%;
+}
+.features{
+    margin: 100px 0px;
+}
+.features .h2{
+    font-size: 50px;
+    padding: 100px 0px 50px 0px;
+    color: rgb(79, 69, 69);
+}
+.features h6{
+    font-size: 20px;
+    padding: 20px;
+    color: gray;
+}
+.features .container{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.features .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.features .container .row .one{
+   text-align: center;
+   padding: 50px;
+   transition: all .5s;
+}
+.features .container .row .one:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;
+ }
+.features .container .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}.features .container .row2 .two{
+    text-align: center;
+    padding: 50px;
+    transition: all .5s;
+}
+.features .container .row2 .two:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.features img{
+    width: 15%;
+}
+.timeline{
+    padding-top: 100px;
+}
+.timeline h2, h6{
+    text-align: center;
+}
+.timeline h2{
+    color: rgb(56, 49, 49);
+    font-size: 40px;
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.timeline h6{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.timeline .row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.timeline .row .icon{
+    width: 30%;
+    padding: 40px 10px;
+    transition: all .5s;
+}
+.timeline .row .icon:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.timeline .row .icon i{
+    font-size: 50px;
+    padding: 40px 0px;
+}
+
+.contact{
+    padding: 100px 0px 30px 0px;
+}
+.contact h2{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 40px;
+    
+}
+.contact .row{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .info{
+    width: 45%;
+}
+.contact .info .icon{
+    display: flex;
+    width: 90%;
+
+}
+.contact .info .icon i{
+    font-size: 30px;
+    color: orange;
+    padding: 0px 10px 10px 0px
+}
+iframe{
+    padding: 20px 0px;
+    width: 65%;
+    height: 40%;
+}
+.contact .form{
+    text-align: center;
+    width: 45%;
+}
+.contact .form input{
+    width: 90%;
+    padding: 10px;
+    margin: 3px;
+}
+.contact .form textarea{
+    width: 92%;
+    height: 150px;
+    padding: 5px;
+    margin: 3px;
+}
+.contact .form button{
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.contact .form button:hover{
+    background-color:deepskyblue;
+}
+.footer{
+    margin-top: 100px;
+    border-top: 10px solid black;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer a{
+    color: orange;
+}
+.toggeler i{
+    background-color: transparent;
+    color: gray;
+    font-size: 20px;
+    margin: 20px;
+    display: none;
+}
+@media(max-width:750px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .home .container{
+        width: 100%;
+    }
+    .home .nav .row ul{
+        display: none;
+    }
+    .toggeler i{
+        display: block;
+        font-size: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+    }
+    .home .row2 h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .home .row2 p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .home .row2 img{
+        width: 80%;
+    }
+    .home .row2 button{
+        width: 40%;
+    }
+    .about .h2{
+        font-size: 40px;
+    }
+    .about .row{
+        flex-wrap: wrap;
+    }
+    .about .row .vision{
+        width: 100%;
+    }
+    .about .row .vision img{
+        width: 30%;
+        padding: 10px;
+    }
+    .features .h2{
+        font-size: 40px;
+    }
+    .features .one{
+        width: 90%;
+    }
+    .features .row2{
+        flex-wrap: wrap;
+    }
+    .timeline h2{
+        font-size: 40px;
+    }
+    .timeline h6{
+        font-size: 20px;
+    }
+    .timeline .row .icon{
+        width: 90%;
+    }
+    .contact h2{
+        font-size: 40px;
+    }
+    .contact .container .row{
+        flex-wrap: wrap;
+    }
+    .contact .row .info{
+        width: 90%;
+        padding-left: 30px;
+    }
+    .contact .row .info iframe{
+        width: 90%;
+    }
+    .contact .row .form textarea{
+        margin-top: 5px;
+        padding: 0px 5px;
+    }
+    .contact .row .form{
+        width: 90%;
+        padding-left: 20px;
+    }
+    
+    
+    
+
+    
+
+}
+

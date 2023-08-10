@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+body{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.home .container{
+    width: 90%;
+    margin: auto;
+}
+.home .nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 0%;
+ }
+.home .nav .row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.home .nav .row ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px ;
+}
+.home .nav .row ul .li{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all 0.5s;
+}
+.home .nav .row ul .li:hover{
+    color: orange;
+}
+
+.home .nav .row .sign{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home .nav .row .sign a{
+    color: rgb(220, 7, 7);
+}
+.home .nav .row a{
+    text-decoration: none;
+    padding: 20px;
+}
+.home .nav .row .logo{
+    display: flex;
+    padding-top: 0px;
+}
+.home .nav .row .logo .char{
+    color: orange;
+    padding-top: 5px;
+}
+.home .nav .row .logo .char2{
+   font-size: 30px;
+   color: gray;
+}
+a{
+    text-decoration: none;
+}
+.sign-up{
+    padding: 100px;
+    height: 60vh;
+}
+.sign-up h2{
+    margin: 0px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f9f9fa;
+}
+.sign-up .form-data{
+    text-align: center;
+    width: 54%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+.sign-up .row{
+    padding: 25px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.sign-up label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sign-up .label{
+    padding-right: 20px;
+    text-align: right;
+    width: 40%;
+}
+.sign-up .label label{
+    display: block;
+    margin: 7px;
+    padding: 4px;
+}
+
+.sign-up .form-group {
+    width: 80%;
+}
+
+.sign-up .form-group input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.sign-up .select {
+    margin: auto;
+    display: flex;
+    width: 30%;
+    padding-top: 15px;
+}
+.sign-up .select label {
+   padding: 0px 10px;
+}
+.sign-up button{
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    border: 1px #ced4da;
+    cursor: pointer;
+    transition: all .5s;
+}
+.sign-up button:hover{
+    background-color: blue;
+}
+footer{
+    padding-top: 40px;
+    border-top: 10px solid black;
+    text-align: center;
+}
+footer p{
+    color: gray;
+}
+footer a{
+    color: orange;
+}
